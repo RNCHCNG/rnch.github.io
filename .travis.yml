@@ -5,7 +5,7 @@ node_js:
 cache: npm
 branches:
   only:
-    - main # build master branch only
+    - gh-pages # build master branch only
 script:
   - hexo generate # generate static files
 deploy:
@@ -18,4 +18,3 @@ deploy:
   local-dir: public
 
 
-  
